@@ -1,0 +1,11 @@
+.cover{
+    background-image: url(./images/confetti.jpg);
+    background-repeat: no-repeat;
+    background-position: 100%;
+    background-size: cover;
+    height: 100vh;
+}
+.dropdown{
+    text-align: right;
+    /* color: darksalmon; */
+}
