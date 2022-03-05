@@ -62,26 +62,37 @@
     let birthDay=( ( (CC/4) -2*CC-1) + ((5*YY/4) ) + ((26*(MM+1)/10)) + DD ) % 7;
     console.log(Math.trunc(birthDay));}
 
-    if(birthDay === 0 && gender === "male"){
-              alert("your akan name is Kwasi")
-          } else if (birthDay===0 && gender==="female"){
-              alert("your akan name is Akoswa")}
-              else if (birthDay===1 && gender==="male"){
-                  alert("your akan name is Kwadwo")
-              }else if (birthDay===1 && gender==="female"){
-                alert("your akan name is Adwoa")}
-                else if (birthDay===2 && gender==="male"){
-                    alert("your akan name is Kwabena")
-                }else if (birthDay===2 && gender==="female"){
-                        alert("your akan name is Abenaa")}
-                        else if (birthDay===3 && gender==="male"){
-                            alert("your akan name is Kwaku")
-                        }else if (birthDay===3 && gender==="female"){
-                                alert("your akan name is Kwadwo")}
-                                else if (birthDay===1 && gender==="male"){
-                                    alert("your akan name is Kwadwo")
-                                    else if (birthDay===1 && gender==="male"){
-                                        alert("your akan name is Kwadwo")
-                                        else if (birthDay===1 && gender==="male"){
-                                            alert("your akan name is Kwadwo")
+    if(birtDay === 0 && gender === "male"){
+        alert("your akan name is Kwasi")
+    }else if (birthDay===0 && gender==="female"){
+        alert("your akan name is Akoswa")}
+    else if (birthDay===1 && gender==="male"){
+        alert("your akan name is Kwadwo")
+    }else if (birthDay===1 && gender==="female"){
+        alert("your akan name is Adwoa")}
+    else if (birthDay===2 && gender==="male"){
+        alert("your akan name is Kwabena")
+    }else if (birthDay===2 && gender==="female"){
+        alert("your akan name is Abenaa")}
+    else if (birthDay===3 && gender==="male"){
+        alert("your akan name is Kwaku")
+    }else if (birthDay===3 && gender==="female"){
+        alert("your akan name is Akua")}
+    else if (birthDay===4 && gender==="male"){
+        alert("your akan name is Yaw")
+    }else if (birthDay===4 && gender==="female"){
+        alert("your akan name is Yaa")}
+    else if (birthDay===5 && gender==="male"){
+        alert("your akan name is Kofi")
+    }else if (birthDay===5 && gender==="female"){
+        alert("your akan name is Afua")}
+    else if (birthDay===6 && gender==="male"){
+        alert("your akan name is Kwame")
+    }else if (birthDay===6 && gender==="female"){
+        alert("your akan name is Ama")}
+    else{
+        alert("Error");
+            event.preventDefault();
+            };           
 
+                      
