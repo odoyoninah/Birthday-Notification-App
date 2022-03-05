@@ -55,5 +55,10 @@
           
         function myForm(){let date=document.getElementById("date").value;
     console.log(date);
-    let MM=parseInt(date.slice(5,7));console.log(MM);}
-    
+    let MM=parseInt(date.slice(5,7));console.log(MM);
+    let DD=parseInt(date.slice(8,10));console.log(DD);
+    let CC=parseInt(date.slice(0,2));console.log(CC);
+    let YY=parseInt(date.slice(2,4));console.log(YY);
+
+
+}
