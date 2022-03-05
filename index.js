@@ -59,6 +59,8 @@
     let DD=parseInt(date.slice(8,10));console.log(DD);
     let CC=parseInt(date.slice(0,2));console.log(CC);
     let YY=parseInt(date.slice(2,4));console.log(YY);
+    let birthDay=( ( (CC/4) -2*CC-1) + ((5*YY/4) ) + ((26*(MM+1)/10)) + DD ) % 7;
+    console.log(Math.trunc(birthDay));
 
 
 }
