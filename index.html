@@ -28,28 +28,32 @@
 
 
             <div class="fomula">
-                <form>
+                <form id="form">
                     <h2>
                         Akan Name Form
                     </h2>
                     <p>Please fill in the form below</p>
                     
-                        <label for="N">Name *</label><br>
-                        <input type="text" name="name" id="n" value="" required placeholder="Full Name *"><br>
+                        <label for="name">Name *</label><br>
+                        <input type="text" name="name" id="name"  required placeholder="Full Name *"><br>
                     
-                        <label for="E"> EmailAddress *</label><br>
-                        <input type="email" name="Email" id="e" value="" required placeholder="example@gmail.com"><br>
+                        <label for="email"> EmailAddress *</label><br>
+                        <input type="email" name="Email" id="email"  required placeholder="example@gmail.com"><br>
                 
-                        <label for="G"> Gender *</label><br>
-                        <input type="radio" name="gender" id="G" value="" required> Male
+                        <label for="gender"> Gender *</label><br>
+                        <input type="radio" name="gender" id="male"  required> Male
                          <!-- <label for="G"> Gender *</label><br> -->
-                         <input type="radio" name="gender" id="G" value="" required> Female
+                         <input type="radio" name="gender" id="female"  required> Female<br>
             
-                        <label for="D"> Date *</label><br>
-                        <input type="date" name="date" id="date" ><br>
+                         
+                        <label for="date">Date</label><br>
+                        <input type="date" name="date" id="date"  required><br>
+
+                        <button type="submit">submit</button>
+                        
             
                     
-                        <button type="submit">Submit</button>
+                        
                     
             
                 </form>
